@@ -1,0 +1,4 @@
+website:
+  sidebar:
+    contents:
+      - getting_started.ipynb
