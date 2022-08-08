@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nbdev2example"
+version = "0.2.0"
+description = "Sample project to demonstrate the features and benefits of nbdev2."
+authors = ["Nils Uhrberg <nils.uhrberg@codecentric.de>"]
+license = "apache2"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+ghp-import = "^2.1.0"
+nbdev = "^2.1.3"
+quarto = "^0.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
